@@ -1,17 +1,12 @@
 package main
 
 import (
-  "github.com/labstack/echo/v4"
-  "net/http"
+  // "github.com/syfuuu/falah/"
 )
 
 func helloWorld() echo.HandlerFunc {
-  return "Hello world!"
+  return echo.HandlerFunc{}
 } 
 
 func main() {
-	e := echo.New()
-
-	e.GET("/", helloWorld)
-	e.Start(":8080")
 }
